@@ -1,5 +1,6 @@
 import React from "react";
 import { useHistory } from "react-router";
+import { IoArrowForward } from "react-icons/io5";
 import "./Login.css";
 
 function Login({ username, setUsername }) {
@@ -17,13 +18,17 @@ function Login({ username, setUsername }) {
   return (
     <div className="login-form">
       <form onSubmit={handleSubmit}>
-        <h1>Chess Data</h1>
-        <input
-          type="text"
-          onChange={inputHandler}
-          placeholder="Your username"
-          value={username}
-        ></input>
+        <div className="input-container">
+          <input
+            type="text"
+            onChange={inputHandler}
+            placeholder="Your chess.com username"
+            value={username}
+          />
+          <button className='submit-icon-container' type='submit'>
+            <IoArrowForward />
+          </button>
+        </div>
       </form>
     </div>
   );

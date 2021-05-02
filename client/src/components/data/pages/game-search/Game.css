@@ -1,0 +1,16 @@
+.card-container {
+    margin: 2vh;
+}
+
+.card-body {
+  width: 18vw;
+}
+
+.card-text {
+  margin-bottom: 5px;
+}
+
+.card-link {
+  color: rgb(71, 45, 41) !important;
+}
+

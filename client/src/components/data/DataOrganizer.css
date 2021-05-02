@@ -1,0 +1,32 @@
+.data {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-container {
+    width: 95vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.general-data-container {
+    margin: auto;
+}
+
+.card-deck {
+    margin-bottom: 2vh;
+}
+
+.link {
+    font-size: 2vh !important;
+    color: black !important;
+    text-decoration: none !important;
+    margin-left: 1vh;
+    cursor: pointer;
+}
+
+

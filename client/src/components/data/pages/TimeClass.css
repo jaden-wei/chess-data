@@ -1,0 +1,24 @@
+.general-data-card {
+    min-height: 30vh;
+    align-items: center;
+}
+
+.card-img-top {
+    padding-top: 20px;
+    padding-bottom: 0;
+    width: 20%;
+}
+
+@media (max-width: 1000px) {
+    .general-data-container {
+        flex-direction: column;
+    }
+
+    .general-data-card {
+        width: 100%;
+    }
+    
+    .card-body {
+        width: 100% !important;
+    }
+}
